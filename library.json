@@ -1,0 +1,13 @@
+{
+    "name": "LibTest",
+    "version": "0.0.1",
+    "frameworks": "arduino",
+    "platforms" : ["espressif8266", "espressif32"],
+    "dependencies":[
+        {
+            "name":"ArduinoJson",
+            "version": "^7.0.3",
+            "platforms" : ["espressif8266", "espressif32"]
+        }
+    ]
+}
