@@ -4,9 +4,9 @@
 #include <ArduinoJson.h>
 
 void test() {
-    const char* test_str = R"({test:"success!"})";
+    const char* test_str = "{test:\"success!\"}";
     JsonDocument doc;
-    serializeJson(doc, test_str);
-    deserializeJson(doc, Serial);
+    deserializeJson(doc, test_str);
+    serializeJsonPretty(doc, Serial);
     Serial.println();
 }
