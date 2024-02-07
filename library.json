@@ -6,7 +6,7 @@
     "dependencies":[
         {
             "name":"ArduinoJson",
-            "version": "^6.21.5",
+            "version": "^7.0.3",
             "platforms" : ["espressif8266", "espressif32"]
         }
     ]
